@@ -3,6 +3,10 @@ p,
 body {
   margin: 0px 0px;
 }
+p,
+a {
+  font-size: 20px;
+}
 h1 {
   color: rgb(255, 255, 255);
 }
@@ -28,6 +32,10 @@ header {
 h2 {
   font-size: 30px;
   border-bottom: dotted 3px rgb(236, 122, 122);
+}
+h2::before {
+  content: "●";
+  color: rgb(239, 111, 139);
 }
 .contents p:nth-of-type(2):first-letter {
   font-weight: bold;

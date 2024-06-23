@@ -1,4 +1,6 @@
-h1,p,body {
+h1,
+p,
+body {
   margin: 0px 0px;
 }
 h1 {
@@ -24,10 +26,10 @@ header {
   text-align: center;
 }
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   border-bottom: dotted 3px rgb(236, 122, 122);
 }
-.contents p:nth-of-type(2):first-letter{
+.contents p:nth-of-type(2):first-letter {
   font-weight: bold;
   color: rgb(97, 206, 249);
 }
@@ -50,12 +52,12 @@ a:hover {
 }
 @media screen and (max-width: 768px) {
   h2 {
-    font: 30px;
+    font-size: 30px;
   }
   p {
-    font: 25px;
+    font-size: 25px;
   }
   #parent {
-      display: block;
+    flex-direction: column;
   }
 }
